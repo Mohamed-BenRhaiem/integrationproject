@@ -19,7 +19,7 @@ public class Maintenance {
 
     // Ajout d'une relation ManyToOne avec Equipment
     @ManyToOne
-    @JoinColumn(name = "equipment_id", nullable = false)  // clé étrangère dans la table Maintenance
+    @JoinColumn(name = "c", nullable = false)  // clé étrangère dans la table Maintenance
     private Equipment equipment;
 
     public Maintenance(){}
